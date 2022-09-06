@@ -1,0 +1,46 @@
+.home-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.button-link{
+    width: 300px;
+    height: 300px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.button-link:nth-child(1){
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=6046&resolucion=3840x2160);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button-link:nth-child(2){
+    background-image: url(https://images.mubicdn.net/images/film/175904/cache-234516-1508898060/image-w1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button-link:nth-child(3){
+    background-image: url(https://wallpaper.dog/large/20384294.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.button-link:hover{
+    filter: contrast(0.8);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}

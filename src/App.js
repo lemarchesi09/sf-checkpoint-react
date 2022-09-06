@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Form from './components/Form';
 import { Routes, Route} from 'react-router-dom';
 import Users from './components/Users';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Route path="/users" element={<Users />} />
         <Route path="*" element={<h1>Error</h1>} />
       </Routes>
-      
+      <Footer />
+
       
     </div>
   );

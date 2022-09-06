@@ -1,0 +1,7 @@
+.footer-cont{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    justify-content: space-evenly;
+}
