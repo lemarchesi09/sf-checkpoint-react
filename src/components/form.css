@@ -1,0 +1,170 @@
+
+
+
+
+/*  --------------------- */
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=6046&resolucion=3840x2160);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin:auto;
+    padding: 1em;
+    width: 25em;
+}
+
+#results, 
+p,
+h5,
+h4 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#results,
+form {
+    border-radius: 25px;
+    border: 5px solid #2F9331;
+    background-color: #ffffff78;
+}
+
+/*  --------------------- */
+
+
+h2{
+    padding: 5%;
+    color: white;
+}
+
+form{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+input{
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1%;
+    background: transparent;
+    color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.4rem;
+}
+textarea{
+    resize: none;
+    padding: 1%;
+    margin-top: 2%;
+    width: 70%;
+    align-self: center;
+    background: transparent;
+    color: black;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.4rem;
+    
+}
+
+.boton{
+    margin-bottom: 2%;
+    border-color:#2F9331;
+    background-color: #8BCF21;
+    color: #2F9331;
+}
+.boton-home{
+    border-color:#2F9331;
+    background-color: #8BCF21;
+    width: 7%;
+    position: fixed;
+    right: 90%;
+    top: 5%;
+}
+
+.boton-home a{
+    color: #2F9331;
+    text-decoration: none;
+}
+.boton-home:hover a{
+    color: white;
+    text-decoration: none;
+}
+.boton-home:hover{
+    border-color:#8BCF21;
+    background-color: #2F9331;
+    color: white;
+}
+
+.boton:hover{
+    border-color:#8BCF21;
+    background-color: #2F9331;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #8BCF21;
+}
+input::placeholder{
+    color: white;
+}
+textarea::placeholder{
+    color: white;
+}
+textarea:focus{
+    outline: none;
+    border-bottom: 2px solid #8BCF21;
+}
+
+#btn-submit{
+    width: 18%;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin:auto;
+    padding: 1em;
+    width: 25em;
+}
+
+#results, 
+p,
+h5,
+h4 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#results,
+form {
+    border-radius: 25px;
+    border: 5px solid #2F9331;
+    background-color: #ffffff78;
+}

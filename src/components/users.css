@@ -1,0 +1,26 @@
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(https://images.mubicdn.net/images/film/175904/cache-234516-1508898060/image-w1280.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.users-card {
+    background-color: rgb(243, 236, 172); 
+    text-align: center;
+    width: 20%;
+    margin: 1.3rem;
+    padding: 2rem;
+    border-radius: 5%;
+    box-shadow: 2px 5px 9px gray;
+}
+
+.title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
