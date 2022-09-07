@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.cards-body {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 4%;
+  color: white;
+  background-color: black;
+}
+
+.cards-body h1 {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 7% 0 7% 0;
+}
+
+.cards-body,
+.cards-body img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.cards-body img {
+  border-bottom: 4px solid red;
+  border-image: linear-gradient(
+      to right,
+      #b1d75c 25%,
+      #00a6ba 25%,
+      #ffec52 50%,
+      #00af3c 50%,
+      #87d1cd 75%,
+      #ffd31f 75%
+    )
+    5;
+}
+
+.cards-body:hover {
+  border: 1px solid black;
+  border-radius: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cards-body span {
+  margin-left: 2%;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.cards-body p {
+  text-align: center;
+}
+
+/* status */
+
+.Alive {
+  background-color: green;
+}
+
+.Dead {
+  background-color: red;
+}
+
+.unknown {
+  background-color: blueviolet;
+}
