@@ -1,4 +1,4 @@
-import  Logo  from "../assets/rym.png"
+
 import  Logo1  from "../assets/rym1.png"
 import { Link } from 'react-router-dom'
 import Form from './Form';
@@ -15,7 +15,7 @@ const NavBar = () => {
           <nav className="nav-bar">
             <Link className="link" to='/' element={<Home />}>Home</Link>
             <Link className="link" to='/form' element={<Form />}>Formulario</Link>
-            <img className="nav-logo" src={Logo1} />
+            <img className="nav-logo" src={Logo1} alt="logo" />
             <Link className="link" to='/users' element={<Users />}>Users</Link> 
             <Link className="link" to='/cards' element={<Cards />}>R&M API</Link> 
 
