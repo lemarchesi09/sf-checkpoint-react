@@ -27,7 +27,7 @@ const Users = () => {
           {users.map((user) => {
             return(
             
-                <div className="users-card">
+                <div className="users-card" key={user.id}>
                   <p className="title">{user.name}</p>
                   <p>Email: {user.email}</p>
                   <p>Phone: {user.phone}</p>
