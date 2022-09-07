@@ -11,7 +11,7 @@ const Home = () => {
         <div className="buttons">
           <Link to='/form' className="button-link"></Link>
           <Link to='/users' className="button-link"></Link>
-          <Link to='/rym' className="button-link"></Link>
+          <Link to='/cards' className="button-link"></Link>
       </div>
       </div>
     );

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Form from './Form';
 import Home from './Home';
 import Users from './Users';
+import Cards from "./Cards";
 
 import "./navbar.css"
 
@@ -16,7 +17,7 @@ const NavBar = () => {
             <Link className="link" to='/form' element={<Form />}>Formulario</Link>
             <img className="nav-logo" src={Logo1} />
             <Link className="link" to='/users' element={<Users />}>Users</Link> 
-            <Link className="link" to='/api' >R&M API</Link> 
+            <Link className="link" to='/cards' element={<Cards />}>R&M API</Link> 
 
           </nav>
         </div>

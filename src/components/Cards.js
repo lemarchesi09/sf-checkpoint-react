@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./cards.css"
 
 
-export const Cards = () => {
+const Cards = () => {
 
   const [cards, setCards] = useState([])
   const getApi = async() =>{
@@ -39,3 +39,5 @@ export const Cards = () => {
 
     );
   }
+
+  export default Cards
