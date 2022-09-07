@@ -26,7 +26,7 @@ const Form = () => {
       const handleSubmit = (event) => {
         event.preventDefault();
         
-        console.log('Data Form dentro de HandleSubmit', dataForm);
+        console.log('Mensaje enviado', dataForm);
       }
     
       console.log('Data Form fuera de HandleSubmit', dataForm);
