@@ -19,8 +19,6 @@ function App() {
         <Route path="*" element={<h1>Error</h1>} />
       </Routes>
       <Footer />
-
-      
     </div>
   );
 }
